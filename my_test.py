@@ -16,3 +16,5 @@ from collections import OrderedDict,namedtuple
 
 providers = ['AzureExecutionProvider', 'CPUExecutionProvider'] if cuda else ['CPUExecutionProvider']
 session = ort.InferenceSession(w, providers=providers)
+
+print("시험 언제")
